@@ -28,7 +28,7 @@ Execute the following command to start the server:
 * `3000` - the port to listen on. You can use any
 * `ukr` - model name (Ukrainian in the example)
 * `ukrainian-iu-ud-2.10-220711:uk_iu-ud-2.10-220711:uk:ukr` - model names (Ukrainian in the example). You can find names [here](https://github.com/ufal/udpipe/blob/udpipe-2/models-2.10/models_list.sh)
-* `uk_iu` - treebank name (Ukrainian in the example). You can find name [here](https://github.com/ufal/udpipe/blob/udpipe-2/models-2.10/models_list.sh)
+* `uk_iu` - treebank name (Ukrainian in the example). You can find the name [here](https://github.com/ufal/udpipe/blob/udpipe-2/models-2.10/models_list.sh)
 * `https://ufal.mff.cuni.cz/udpipe/2/models#universal_dependencies_210_models` - a URL to the model's acknowledgements
 
 Now to test the server, go to the browser and try:
@@ -40,7 +40,7 @@ Now to test the server, go to the browser and try:
 
 ## Step 5
 Now you can work with UDPipe.
-For example, you may create a new Python file and using cURL send and recieve the data from the server via files.
+For example, you may create a new Python file and use cURL to send and receive the data from the server via files.
 
     os.system(
     "curl -F model=ukr -F data='@INPUT.txt' -F tokenizer= -F tagger= -F parser= http://localhost:(PORT)/process > OUTPUT.txt")
