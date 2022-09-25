@@ -23,7 +23,7 @@ Execute the following command to start the server:
 
     sudo python3 (PATH_TO)/udpipe2_server.py 3000 ukr ukrainian-iu-ud-2.10-220711:uk_iu-ud-2.10-220711:uk:ukr (PATH_TO)/model uk_iu https://ufal.mff.cuni.cz/udpipe/2/models#universal_dependencies_210_models
 
-* `sudo` - in case there is a problem with the permissions
+* `sudo` - in case there is a problem with the permissions (MacOS only)
 * `(PATH_TO)` - full path to the file
 * `3000` - the port to listen on. You can use any
 * `ukr` - model name (Ukrainian in the example)
